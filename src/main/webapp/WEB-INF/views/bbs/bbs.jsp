@@ -67,7 +67,7 @@
 					<!-- 이전 section 버튼 -->
 					<c:if test = "${map.paging.pageNumber > 5}">
 				
-						<li><a href="./bbs?pageNum=${map.paging.before}"><span class = "glyphicon glyphicon-triangle-left"></span></a></li>
+						<li><a href="./bbs?pageNumber=${map.paging.before}"><span class = "glyphicon glyphicon-triangle-left"></span></a></li>
 				
 					</c:if>
 						
@@ -90,7 +90,7 @@
 					<!-- 다음 section 버튼 -->	
 					<c:if test = "${map.paging.next}">
 						
-						<li><a href="./bbs?pageNum=${map.paging.forward}"><span class = "glyphicon glyphicon-triangle-right"></span></a></li>
+						<li><a href="./bbs?pageNumber=${map.paging.forward}"><span class = "glyphicon glyphicon-triangle-right"></span></a></li>
 						
 					</c:if>	
 						
